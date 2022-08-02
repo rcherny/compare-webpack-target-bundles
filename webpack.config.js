@@ -18,6 +18,7 @@ var baseConfig = {
     // chunkFormat: 'commonjs'
   },
   optimization: {
+    minimize: false, // testing only
     removeEmptyChunks: true,
     removeAvailableModules: true,
     mergeDuplicateChunks: true,
